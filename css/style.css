@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(72, 18, 199);
+    color:rgb(255, 255, 255) ;
+}
+
+    
+
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    height: 120px;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+main{
+    padding-bottom: 100px;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width: 1040px;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px;
+    text-align: center;
+}
+
+.prise tbody tr:nth-child(2n+1){
+    background-color: rgb(125, 66, 173);
+}
+.prise tbody tr:nth-child(2n){
+    background-color: rgb(71, 123, 182);
+}
+.prise thead{
+    border-top: 5px solid fuchsia;
+    border-bottom: 5px solid fuchsia;
+    background-color: rgb(134, 173, 41);
+}
+.prise tr{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.prise td:nth-child(3){
+    text-align: left;
+}
+
+.prise th:first-child{
+    width: 10%;
+}
+
+.prise th:nth-child(2), .prise th:last-child{
+    width: 25%
+}
+
+.main_img--float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+
+#panorama{
+    width: 100%;
+    height: 250px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+#logo{
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+#mainnav{
+    padding: 0px 100px; 
+    font-size: 24px;
+    float: right;
+    line-height: 100px;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li{
+    display: inline;
+}
+#mainnav a{
+    text-transform: uppercase;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
+}
+
+
+.services_img{
+    width: 240px;
+}
+.services_item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.services{
+    padding: 35px;
+}
+.services a{
+    color: pink;
+}
+.services a:hover{
+    text-decoration: underline;
+}
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: green;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1_invisible{
+    visibility: hidden;
+}
+.column{
+    width: 770px;
+    text-align: justify;
+    line-height: 150%;
+    padding: 35px;
+    margin: auto;
+}
+.column_zagl{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.column_img{
+    width: 700px;
+}
+.connect{
+    padding: 35px;
+}
+.connect_he-ng{
+    color: red;
+    font-size: 130%;
+}
+.connect_he-ng a{
+    text-decoration: none;
+    color: red;
+}
+
+.connect_text{
+    color: rgb(109, 235, 6);
+    text-align: center;
+    width: auto;
+    line-height: 150%;
+    font-size: 125;
+}
+.connect_block{
+    padding: 15px;
+}
+.customers{
+    text-align: center;
+}
+.pink{
+    color: rgb(255, 72, 0);
+}
+.red{
+    color: red;
+    text-decoration: none;
+}
+.footer_block{
+display: inline-block;
+width: 335px;
+text-transform: uppercase;
+}
+.footer_icons{
+display: inline-block;
+width: 335px;
+text-align: right;
+}
+.footer_img{
+width: 50px;
+padding-left: 10px;
+}
+
+#contact_form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(255, 212, 237);
+}
+#contact_form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(255, 212, 237);
+}
+#contact_form input[type="tel"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(255, 212, 237);
+}
+#contact_form input[type="date"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(255, 212, 237);
+}
+#contact_form input[type="submit"]{
+    background-color: rgb(255, 212, 237);
+    font-size: oblique;
+    padding: 3px;
+}
+#contact_form input[type="submit"]:hover{
+    background: rgb(153, 99, 108);
+}
+#contact_form select{
+    background-color: rgb(255, 212, 237);
+    height: 20px;
+    width: 250px;
+}
+#contact_form textarea{
+    background-color: rgb(255, 212, 237);
+    width: 250px;
+    padding: 5px;
+}
